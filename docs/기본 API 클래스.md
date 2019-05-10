@@ -58,13 +58,22 @@
 
 > 주의
 >> 자동 박싱과 언박싱은 자바 5부터 추가된 기능  
->> 따라서 자바 4 이전 버전에서는 직접 박싱과 언박싱을 해주어야 함
+>> 따라서 자바 4 이전 버전에서는 직접 박싱과 언박싱을 해주어야 함  
 
 #### 필요성(용도)
-1.
-2.
-3.
-4.
+1. 원시적 데이터 형식을 객체로 변환
+	+ 기본 타입의 값을 박싱해서 포장 객체 생성
+	+ 클래스가 제공하는 메소드 및 상수(ex. MIN_VALUE) 사용
+	+ *Objects are needed when we need to pass an argument in the given method*
+2. 문자열을 기본 타입 값으로 변환
+	+ 대부분의 포장 클래스에 있는 "parse+기본타입명"인 정적 메소드 사용
+3. java.util 패키지의 클래스 사용 목적
+	+ 객체만 처리
+4. ArrayList 및 Vector와 같은 컬렉션 프레임워크 데이터 구조 사용 목적
+	+ 기본 유형이 아닌 객체만 저장
+5. 멀티 스레딩에서 동기화 지원하려면 객체 필요
+
+#### 비교
 
 
 > 원시 타입과 문자열을 포장하라  
@@ -90,6 +99,7 @@ public class Money {
 
 + 참고문서
 	+ [목적의식 있는 연습을 통한 효과적인 학습](http://woowabros.github.io/woowabros/2019/05/02/techcourse.html?fbclid=IwAR3XaCT6eav1_xZE9ZnjCR2u3s4Ci96eosWGE6qsiWIM6wpplms4ca6qbfs)
+	+ [Wrapper Class in Java](https://data-flair.training/blogs/wrapper-class-in-java/)
 
 ## Math, Random 클래스
 
