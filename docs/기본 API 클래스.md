@@ -42,6 +42,26 @@
 ## Arrays 클래스
 
 ## Wrapper(포장) 클래스
+> 원시 타입과 문자열을 포장하라  
+
+```java
+public class Money {
+	private static final int MONEY_PER_LOTTO = 1_000;
+	
+	private final int money;
+	
+	public Money(int money) {
+		if(money < MONEY_PER_LOTTO) {
+			throw new IllegalArgumentException("로또 구입금액은 1000원 이상이어야 합니다.");
+		}
+		this.money = money;
+	}
+	[...]
+}
+```
+
+> 위의 경우, 구입 금액을 Money 객체로 포장  
+>> 이처럼 OOP에선 원시 타입과 문자열을 포장  
 
 #### 정의
 + 기본 타입의 값(field)을 갖는 객체를 지칭
@@ -74,28 +94,31 @@
 5. 멀티 스레딩에서 동기화 지원하려면 객체 필요
 
 #### 비교
+> 포장 객체에 정확히 어떤 값이 저장될지 모르는 상황이라면   
+> 첫째, 직접 내부 값을 언박싱해서 비교  
+> 둘째, equals() 메소드로 내부 값을 비교
 
-
-> 원시 타입과 문자열을 포장하라  
++ 포장 객체는 내부의 값을 비교하기 위해 ==와 != 연산자를 사용할 수 없음
+	+ 이 연산자는 내부의 값을 비교하는 것이 아니라 포장 객체의 참조를 비교하기 때문
+	+ 따라서 내부의 값을 비교하려면 언박싱한 값을 얻어 비교
++ 예외로 포장 객체더라도 다음 범위 안의 값이라면 ==와 != 연산자로 내부의 값을 바로 비교 가능  
+| 타입 | 값의 범위 |
+| --- | ------- |
+| boolean | true, false |
+| char | \u0000 ~ \u007f |
+| byte, short, int | -128 ~ 127 |
 
 ```java
-public class Money {
-	private static final int MONEY_PER_LOTTO = 1_000;
-	
-	private final int money;
-	
-	public Money(int money) {
-		if(money < MONEY_PER_LOTTO) {
-			throw new IllegalArgumentException("로또 구입금액은 1000원 이상이어야 합니다.");
-		}
-		this.money = money;
-	}
-	[...]
-}
+Integer obj1 = 300;
+Integer obj2 = 300;
+System.out.println(obj1 == obj2); // false 출력
 ```
 
-> 위의 경우, 구입 금액을 Money 객체로 포장  
->> 이처럼 OOP에선 원시 타입과 문자열을 포장
+#### 예제 코드  
+
+```java
+// 추후 추가
+```
 
 + 참고문서
 	+ [목적의식 있는 연습을 통한 효과적인 학습](http://woowabros.github.io/woowabros/2019/05/02/techcourse.html?fbclid=IwAR3XaCT6eav1_xZE9ZnjCR2u3s4Ci96eosWGE6qsiWIM6wpplms4ca6qbfs)
