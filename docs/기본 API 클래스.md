@@ -20,6 +20,39 @@
 16. [java.time 패키지](#java.time-패키지)
 
 ## 자바 API 도큐먼트
+> 적절한 Collection(자료구조)를 활용하라  
+>> 일차로 List, Set, Map을 적절하게 활용  
+>> 적절한 자료구조가 없다면 나만의 자료구조 구현  
+
+```java
+// 각 등수별 당첨된 로또 수 - Map을 통해 구현
+public class LottoResult {
+	private Map<Rank, Integer> result = new HashMap<>();
+	
+	public LottoResult() {
+		for(Rank rank : Rank.values()) {
+			result.put(rank, 0);
+		}
+	}
+	
+	public void putRank(Rank rank) {
+		result.put(rank, result.get(rank) + 1);
+	}
+}
+```
+
+#### 정의
++ API(Application Programming Interface)
+	+ 프로그램 개발에 자주 사용되는 클래스 및 인터페이스 모음
+	+ String 클래스, System 클래스도 모두 API
+	+ 라이브러리(library)라고도 부름
+	+ 설치경로
+		+ <JDK 설치 경로>\jre\lib\rt.jar
+	+ API 도큐먼트
+		+ http://docs.oracle.com/javase/8/docs/api/
+
++ 참고문서
+	+ [목적의식 있는 연습을 통한 효과적인 학습](http://woowabros.github.io/woowabros/2019/05/02/techcourse.html?fbclid=IwAR3XaCT6eav1_xZE9ZnjCR2u3s4Ci96eosWGE6qsiWIM6wpplms4ca6qbfs)
 
 ## java.lang과 java.util 패키지
 
@@ -120,6 +153,11 @@ System.out.println(obj1 == obj2); // false 출력
 ```java
 // 추후 추가
 ```
+
++ **읽어보고 삭제**
+	+ [Servlet Wrapper Classes](https://self-learning-java-tutorial.blogspot.com/2014/08/servlet-wrapper-classes.html)
+	+ [Request Wrappers and Response Wrappers](https://javajee.com/request-wrappers-and-response-wrappers)
+	+ [Wrapper Class에 대하여](http://iyanjava.blogspot.com/2011/02/wrapper-class.html)
 
 + 참고문서
 	+ [목적의식 있는 연습을 통한 효과적인 학습](http://woowabros.github.io/woowabros/2019/05/02/techcourse.html?fbclid=IwAR3XaCT6eav1_xZE9ZnjCR2u3s4Ci96eosWGE6qsiWIM6wpplms4ca6qbfs)
