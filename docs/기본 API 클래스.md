@@ -118,6 +118,8 @@ public class Money {
 	+ 기본 타입의 값을 박싱해서 포장 객체 생성
 	+ 클래스가 제공하는 메소드 및 상수(ex. MIN_VALUE) 사용
 	+ *Objects are needed when we need to pass an argument in the given method*
+		+ Call by reference(?)
+	+ 입력값 검사에 사용
 2. 문자열을 기본 타입 값으로 변환
 	+ 대부분의 포장 클래스에 있는 "parse+기본타입명"인 정적 메소드 사용
 3. java.util 패키지의 클래스 사용 목적
