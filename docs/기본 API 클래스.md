@@ -59,7 +59,8 @@ public class LottoResult {
 ## Object 클래스
 
 *[Map과 식별키 정리; hashCode()](https://jojoldu.tistory.com/134)*  
-*[clone()과 protected](https://stackoverflow.com/questions/1138769/why-is-the-clone-method-protected-in-java-lang-object)*
+*[clone()과 protected-1](https://stackoverflow.com/questions/1138769/why-is-the-clone-method-protected-in-java-lang-object)*  
+*[clone()과 protected-2](https://manjul.wordpress.com/2013/10/13/why-objects-clone-method-is-protected/)*
 
 ## Objects 클래스
 
