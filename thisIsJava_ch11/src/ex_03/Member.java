@@ -6,6 +6,9 @@ package ex_03;
  *     - Call by reference
  *   2. 비교시 get으로 가져오는 게 아니라 데이터를 넘겨줌
  *     - 객체지향적 설계
+ * 
+ * - id 필드값이 같을 경우 같은 해시코드 리턴 하려면?
+ *   - String의 hashCode()는 같은 문자열일 경우 동일한 해시코드 리턴
  */
 public class Member {
 	public String id;
