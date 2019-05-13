@@ -58,6 +58,8 @@ public class LottoResult {
 
 ## Object 클래스
 
+**[Map과 식별키 정리; hashCode()](https://jojoldu.tistory.com/134)**
+
 ## Objects 클래스
 
 ## System 클래스
