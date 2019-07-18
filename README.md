@@ -14,7 +14,7 @@
 10. [예외 처리](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EC%98%88%EC%99%B8%20%EC%B2%98%EB%A6%AC.md)
 11. [기본 API 클래스](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EA%B8%B0%EB%B3%B8%20API%20%ED%81%B4%EB%9E%98%EC%8A%A4.md)
 12. [멀티 스레드]
-13. [제네릭]
+13. [제네릭](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EC%A0%9C%EB%84%A4%EB%A6%AD.md)
 14. [람다식]
 15. [컬렉션 프레임워크]
 16. [스트림과 병렬처리]
