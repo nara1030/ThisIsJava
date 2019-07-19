@@ -23,8 +23,8 @@
 19. NIO 기반 입출력 및 네트워킹
 
 ## 기타
-1. [Double dispatch](../etc/double_dispatch.md)
-2. [다형성: 인터페이스와 리플렉션](../etc/polymorphism.md)
+1. [Double dispatch](./etc/double_dispatch.md)
+2. [다형성: 인터페이스와 리플렉션](./etc/polymorphism.md)
 
 ## 출처
 이것이 자바다, 신용권 저, 한빛미디어
