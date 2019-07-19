@@ -7,26 +7,24 @@
 3. [연산자](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EC%97%B0%EC%82%B0%EC%9E%90.md)
 4. [조건문과 반복문](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EC%A1%B0%EA%B1%B4%EB%AC%B8%EA%B3%BC%20%EB%B0%98%EB%B3%B5%EB%AC%B8.md)
 5. [참조 타입](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EC%B0%B8%EC%A1%B0%20%ED%83%80%EC%9E%85.md)
-6. [클래스]
-7. [상속]
-8. [인터페이스]
-9. [중첩 클래스와 중첩 인터페이스]
+6. 클래스
+7. 상속
+8. 인터페이스
+9. 중첩 클래스와 중첩 인터페이스
 10. [예외 처리](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EC%98%88%EC%99%B8%20%EC%B2%98%EB%A6%AC.md)
 11. [기본 API 클래스](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EA%B8%B0%EB%B3%B8%20API%20%ED%81%B4%EB%9E%98%EC%8A%A4.md)
-12. [멀티 스레드]
+12. 멀티 스레드
 13. [제네릭](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EC%A0%9C%EB%84%A4%EB%A6%AD.md)
-14. [람다식]
-15. [컬렉션 프레임워크]
-16. [스트림과 병렬처리]
-17. [JavaFX]
-18. [IO 기반 입출력 및 네트워킹]
-19. [NIO 기반 입출력 및 네트워킹]
+14. 람다식
+15. 컬렉션 프레임워크
+16. 스트림과 병렬처리
+17. JavaFX
+18. IO 기반 입출력 및 네트워킹
+19. NIO 기반 입출력 및 네트워킹
 
-## 개요
-+ 1단원 ~ 4단원: 프로그래밍의 기본
-+ 5단원 ~ 9단원: 객체지향의 기본
-+ 10단원 ~ 11단원: 
-+ 12단원 ~
+## 기타
+1. [Double dispatch](../etc/double_dispatch.md)
+2. [다형성: 인터페이스와 리플렉션](../etc/polymorphism.md)
 
 ## 출처
 이것이 자바다, 신용권 저, 한빛미디어
