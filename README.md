@@ -24,7 +24,7 @@
 
 ## 기타
 1. [Double dispatch](./docs/etc/double_dispatch.md)
-2. [다형성: 인터페이스와 리플렉션](../docs/etc/polymorphism.md)
+2. [다형성: 인터페이스와 리플렉션](./docs/etc/polymorphism.md)
 
 ## 출처
 이것이 자바다, 신용권 저, 한빛미디어
