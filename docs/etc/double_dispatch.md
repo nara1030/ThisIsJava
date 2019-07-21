@@ -13,7 +13,7 @@ Double dispatch
 [코드스피츠](https://www.youtube.com/watch?v=0j_eGoF8Q98&t=4724s)라는 강의형 유투브를 통해 처음 접한 개념인데 언어를 떠나 프로그래밍에서 가장 기저가 되는 개념 중 하나라는 생각에 정리해본다.  
 
 <img src="../../img/double_dispatch.png" width="500" height="1000"></br>
-
+↑ 강의를 들으며 한 필기~~(볼 필요 없음)~~
 
 ## 개념
 위에 이것저것 써놨지만, ~~(아직 메모리 등의 개념은 이해하지 못했고)~~ 간략히 정리하면 이렇다. 
@@ -60,15 +60,15 @@ Double dispatch
 	* 상태 데이터를 가지는 객체에서 데이터를 꺼내려(get)하지 말고 객체에 메시지를 보내라
 	* 예. Car가 우승자인지를 판단하기 위해 최대 이동 거리 값을 가지는 Car인지 판단할 수 있는 기능
 		* 틀린 메소드 호출  
-		<img src="../../img/method_call_x.png" width="480" height="150"></br>
+		<img src="../../img/method_call_x.png" width="480" height="100"></br>
 		* 올바른 메소드 호출  
-		<img src="../../img/method_call_o.png" width="480" height="100"></br>
+		<img src="../../img/method_call_o.png" width="480" height="50"></br>
 
 이는 MVC 패턴에서도 익숙하고, 리팩토링 책에서도 흔히 볼 수 있는 예인 것 같다.
 		
 ### 토비의봄
 Double dispatch라는 키워드로 검색하다가 유명 개발자인 토비님이 언급하신 걸 정리한 [블로그](https://multifrontgarden.tistory.com/133)를 발견했다. 사실 글쓴분도 개발 관련 커뮤니티에서 익숙한 닉이라 알고 있었다.  
 
-추후 정리-
+이 파트는 추후 정리-
 
 * [Dispatch - Single/Multiple/Dynamic/Double](http://codethataint.com/blog/single-dispatch-multiple-dispatch-dynamic-dispatch-double-dispatch/)
