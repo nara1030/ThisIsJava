@@ -39,8 +39,8 @@
 	* [equals() 메소드를 재정의 해야하는 이유 by 함호식님](https://medium.com/@hhs1253/equals-%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC-%EC%9E%AC%EC%A0%95%EC%9D%98-%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-40f00e00e5ff)
 	* [hashCode() 메소드를 재정의 해야하는 이유 by 함호식님](https://medium.com/@hhs1253/hashcode-%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC-%EC%9E%AC%EC%A0%95%EC%9D%98-%ED%95%B4%EC%95%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-7a4362a6f77b)
 	* [Map과 식별키 정리; hashCode()](https://jojoldu.tistory.com/134)
-* [clone()과 protected-1](https://stackoverflow.com/questions/1138769/why-is-the-clone-method-protected-in-java-lang-object)*  
-* [clone()과 protected-2](https://manjul.wordpress.com/2013/10/13/why-objects-clone-method-is-protected/)*
+* [clone()과 protected-1](https://stackoverflow.com/questions/1138769/why-is-the-clone-method-protected-in-java-lang-object)
+* [clone()과 protected-2](https://manjul.wordpress.com/2013/10/13/why-objects-clone-method-is-protected/)
 
 ## Objects 클래스
 
