@@ -20,26 +20,6 @@
 16. [java.time 패키지](#java.time-패키지)
 
 ## 자바 API 도큐먼트
-> 적절한 Collection(자료구조)를 활용하라  
->> 일차로 List, Set, Map을 적절하게 활용  
->> 적절한 자료구조가 없다면 나만의 자료구조 구현  
-
-```java
-// 각 등수별 당첨된 로또 수 - Map을 통해 구현
-public class LottoResult {
-	private Map<Rank, Integer> result = new HashMap<>();
-	
-	public LottoResult() {
-		for(Rank rank : Rank.values()) {
-			result.put(rank, 0);
-		}
-	}
-	
-	public void putRank(Rank rank) {
-		result.put(rank, result.get(rank) + 1);
-	}
-}
-```
 
 #### 정의
 + API(Application Programming Interface)
@@ -51,14 +31,14 @@ public class LottoResult {
 	+ API 도큐먼트
 		+ http://docs.oracle.com/javase/8/docs/api/
 
-+ 참고문서
-	+ [목적의식 있는 연습을 통한 효과적인 학습](http://woowabros.github.io/woowabros/2019/05/02/techcourse.html?fbclid=IwAR3XaCT6eav1_xZE9ZnjCR2u3s4Ci96eosWGE6qsiWIM6wpplms4ca6qbfs)
-
 ## java.lang과 java.util 패키지
 
 ## Object 클래스
 
-*[Map과 식별키 정리; hashCode()](https://jojoldu.tistory.com/134)*  
+* 재정의
+	* [equals 메소드를 재정의 해야하는 이유 by 함호식님](https://medium.com/@hhs1253/equals-%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC-%EC%9E%AC%EC%A0%95%EC%9D%98-%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-40f00e00e5ff)
+	* [hashCode 메소드를 재정의 해야하는 이유 by 함호식님](https://medium.com/@hhs1253/hashcode-%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC-%EC%9E%AC%EC%A0%95%EC%9D%98-%ED%95%B4%EC%95%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-7a4362a6f77b)
+	* [Map과 식별키 정리; hashCode()](https://jojoldu.tistory.com/134)
 *[clone()과 protected-1](https://stackoverflow.com/questions/1138769/why-is-the-clone-method-protected-in-java-lang-object)*  
 *[clone()과 protected-2](https://manjul.wordpress.com/2013/10/13/why-objects-clone-method-is-protected/)*
 
@@ -79,27 +59,7 @@ public class LottoResult {
 ## Arrays 클래스
 
 ## Wrapper(포장) 클래스
-> 원시 타입과 문자열을 포장하라  
-
-```java
-public class Money {
-	private static final int MONEY_PER_LOTTO = 1_000;
-	
-	private final int money;
-	
-	public Money(int money) {
-		if(money < MONEY_PER_LOTTO) {
-			throw new IllegalArgumentException("로또 구입금액은 1000원 이상이어야 합니다.");
-		}
-		this.money = money;
-	}
-	[...]
-}
-```
-
-> 위의 경우, 구입 금액을 Money 객체로 포장  
->> 이처럼 OOP에선 원시 타입과 문자열을 포장  
-
+ 
 #### 정의
 + 기본 타입의 값(field)을 갖는 객체를 지칭
 + 왜 '포장'인가?
@@ -166,7 +126,6 @@ System.out.println(obj1 == obj2); // false 출력
 	+ [Wrapper Class에 대하여](http://iyanjava.blogspot.com/2011/02/wrapper-class.html)
 
 + 참고문서
-	+ [목적의식 있는 연습을 통한 효과적인 학습](http://woowabros.github.io/woowabros/2019/05/02/techcourse.html?fbclid=IwAR3XaCT6eav1_xZE9ZnjCR2u3s4Ci96eosWGE6qsiWIM6wpplms4ca6qbfs)
 	+ [Wrapper Class in Java](https://data-flair.training/blogs/wrapper-class-in-java/)
 
 ## Math, Random 클래스
