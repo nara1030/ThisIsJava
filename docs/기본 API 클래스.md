@@ -42,6 +42,9 @@
 * [clone()과 protected-1](https://stackoverflow.com/questions/1138769/why-is-the-clone-method-protected-in-java-lang-object)
 * [clone()과 protected-2](https://manjul.wordpress.com/2013/10/13/why-objects-clone-method-is-protected/)
 
+* [Object의 equals() 메소드](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-)
+* [Objects의 equals() 메소드](https://docs.oracle.com/javase/8/docs/api/java/util/Objects.html)
+
 ## Objects 클래스
 
 ## System 클래스
