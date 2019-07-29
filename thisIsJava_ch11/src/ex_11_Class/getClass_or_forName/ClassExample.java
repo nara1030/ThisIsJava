@@ -1,4 +1,6 @@
-package ex_11;
+package ex_11_Class.getClass_or_forName;
+
+import ex_11_Class.util.Car1;
 
 /*
  * - 메타 데이터: 클래스의 이름, 생성자 정보, 필드 정보, 메소드 정보를 말함
@@ -19,7 +21,7 @@ package ex_11;
  */
 public class ClassExample {
 	public static void main(String[] args) {
-		Car car = new Car();
+		Car1 car = new Car1();
 		Class clazz1 = car.getClass();
 		System.out.println(clazz1.getName());
 		System.out.println(clazz1.getSimpleName());
@@ -27,11 +29,11 @@ public class ClassExample {
 		System.out.println();
 
 		try {
-			Class clazz2 = Class.forName("ex_11.Car");
+			Class clazz2 = Class.forName("ex_11_Class.util.Car1");
 			System.out.println(clazz2.getName());
 			System.out.println(clazz2.getSimpleName());
 			System.out.println(clazz2.getPackage().getName());
-		} catch (Exception e) {
+		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
 	}
