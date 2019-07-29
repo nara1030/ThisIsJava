@@ -15,6 +15,8 @@ Double dispatch
 <img src="../../img/double_dispatch.png" width="500" height="1000"></br>
 ↑ 강의를 들으며 한 필기(~~볼 필요 없음~~)
 
+##### [목차로 이동](#목차)
+
 ## 개념
 위에 이것저것 써놨지만, ~~(아직 메모리 등의 개념은 이해하지 못했고)~~ 간략히 정리하면 이렇다. 
 
@@ -44,6 +46,8 @@ Double dispatch
 		* D = B
 	* 즉 변경하는 값을 한 번 포장해서 사용함으로써 문제를 해결할 수 있다.
 
+##### [목차로 이동](#목차)
+	
 ## 연관
 ### 우아한테크코스
 몇 개월 전 흥했던 [우아한테크코스](http://woowabros.github.io/woowabros/2019/05/02/techcourse.html) 후기를 보던 중 아래와 같은 문장이 있었다.  
@@ -72,3 +76,5 @@ Double dispatch라는 키워드로 검색하다가 유명 개발자인 토비님
 이 파트는 추후 정리-
 
 * [Dispatch - Single/Multiple/Dynamic/Double](http://codethataint.com/blog/single-dispatch-multiple-dispatch-dynamic-dispatch-double-dispatch/)
+
+##### [목차로 이동](#목차)
