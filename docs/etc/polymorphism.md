@@ -8,9 +8,8 @@
 	* 상속보다는 합성
 3. [리플렉션](#리플렉션)
 	* 어노테이션과 리플렉션
-4. [결론](#결론)
 	* 리플렉션보다는 인터페이스
-5. [참고](#참고)
+4. [참고](#참고)
 
 ## 개요
 [`리플렉션`보다는 `인터페이스`를 사용하라](https://jaehun2841.github.io/2019/03/03/effective-java-item65/#%EC%84%9C%EB%A1%A0)라는 글을 접하고 이해한대로 정리해보고자 한다. 이 두 개념을 같은 층위에 놓고 비교했고, 나는 아래 개념을 그 기준점으로 삼았다.  
@@ -66,18 +65,16 @@
 
 ##### [목차로 이동](#목차)
 
-## 결론
-
-* 팩토리패턴
-
-
 ## 참고
 
-* [자바 어노테이션과 리플렉션이란?](https://qssdev.tistory.com/27)
-* [어노테이션과 리플렉션을 이용한 메소드 실행시간 출력하기](https://118k.tistory.com/106)
+* 어노테이션과 리플렉션
+	* [자바 어노테이션과 리플렉션이란?](https://qssdev.tistory.com/27)
+	* [어노테이션과 리플렉션을 이용한 메소드 실행시간 출력하기](https://118k.tistory.com/106)
 
 * 팩토리 패턴과 리플렉션
 	* [리플랙션 패턴](https://m.blog.naver.com/PostView.nhn?blogId=since890513&logNo=220220758867&proxyReferer=https%3A%2F%2Fwww.google.com%2F)
 	* [Factory Pattern](https://www.oodesign.com/factory-pattern.html)
 	* [Abstract Factory, Factory Method vs Reflection](https://www.linkedin.com/pulse/abstract-factory-method-vs-reflection-eman-mughal/)
 	* [Factory via Reflection](http://technojeeves.com/index.php/65-java-factory-via-reflection-and-properties)
+	
+##### [목차로 이동](#목차)
