@@ -6,6 +6,7 @@ Double dispatch
 1. [계기](#계기)
 2. [개념](#개념)
 3. [연관](#연관)
+	* [Call by value vs Call by reference](#Call-by-value-vs-Call-by-reference)
 	* [우아한테크코스](#우아한테크코스)
 	* [토비의봄](#토비의봄)
 
@@ -49,6 +50,9 @@ Double dispatch
 ##### [목차로 이동](#목차)
 	
 ## 연관
+### Call by value vs Call by reference
+이는 자바에서 많이 언급되는 [주제](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EB%B3%80%EC%88%98%EC%99%80%20%ED%83%80%EC%9E%85.md)인 값 참조냐 주소 참조냐에 대한 이야기다.
+
 ### 우아한테크코스
 몇 개월 전 흥했던 [우아한테크코스](http://woowabros.github.io/woowabros/2019/05/02/techcourse.html) 후기를 보던 중 아래와 같은 문장이 있었다.  
 
