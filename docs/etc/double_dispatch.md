@@ -66,7 +66,7 @@ Double dispatch
 
 * [객체에 메시지를 보내라](http://woowabros.github.io/files/2019-05-02/precourse_2nd_feedback.pdf)
 	* 상태 데이터를 가지는 객체에서 데이터를 꺼내려(get)하지 말고 객체에 메시지를 보내라
-		* 이는 사실 위 Call by 논쟁같이 헷갈리는 호출은 객체지향적이지 않다는 주장으로 들림
+		* 이는 사실 위 Call by 논쟁같이 헷갈리는 호출은 **객체지향적이지 않다**는 주장으로 들림
 	* 예. Car가 우승자인지를 판단하기 위해 최대 이동 거리 값을 가지는 Car인지 판단할 수 있는 기능
 		* 틀린 메소드 호출  
 		<img src="../../img/method_call_x.png" width="480" height="100"></br>
