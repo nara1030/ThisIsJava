@@ -1,7 +1,15 @@
 이것이 자바다
-========
-
+=====
+출처: 이것이 자바다, 신용권 저, 한빛미디어
+- - -
 ## 목차
+1. [CONTENTS](#CONTENTS)
+2. [기타](#기타)
+3. [참고](#참고)
+
+## CONTENTS
+자바 기본서로, 목차는 아래와 같다.
+
 1. 자바 시작하기
 2. [변수와 타입](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EB%B3%80%EC%88%98%EC%99%80%20%ED%83%80%EC%9E%85.md)
 3. [연산자](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EC%97%B0%EC%82%B0%EC%9E%90.md)
@@ -22,9 +30,16 @@
 18. IO 기반 입출력 및 네트워킹
 19. NIO 기반 입출력 및 네트워킹
 
+##### [목차로 이동](#목차)
+
 ## 기타
 1. [Double dispatch](./docs/etc/double_dispatch.md)
 2. [다형성: 인터페이스와 리플렉션](./docs/etc/polymorphism.md)
 
-## 출처
-이것이 자바다, 신용권 저, 한빛미디어
+##### [목차로 이동](#목차)
+
+## 참고
+* [Thinking in Java: 자바5 버전](https://github.com/nara1030/thinkingInJava/blob/master/README.md)
+* .
+
+##### [목차로 이동](#목차)
