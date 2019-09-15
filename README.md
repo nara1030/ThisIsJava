@@ -35,6 +35,7 @@
 ## 기타
 1. [Double dispatch](./docs/etc/double_dispatch.md)
 2. [다형성: 인터페이스와 리플렉션](./docs/etc/polymorphism.md)
+3. [static vs. non-static](./docs/etc/static_vs_non-static.md)
 
 ##### [목차로 이동](#목차)
 
