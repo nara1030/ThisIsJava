@@ -22,7 +22,7 @@ static vs. non-static
 위 사진을 계기로 아래와 같은 생각을 해보았다.
 
 > * static 멤버가 생성되는 시점은 main() 메서드가 실행을 시작한 후 첫 단어가 등장하는 시점
-> * 따라서 API 클래스에서는 static 멤버 사용 불가
+> * ~~따라서 API 클래스에서는 static 멤버 사용 불가~~
 
 ##### [목차로 이동](#목차)
 
@@ -44,5 +44,6 @@ static vs. non-static
 
 ## 출처
 * [자바 - static 멤버와 static 메서드](https://gmlwjd9405.github.io/2018/08/04/java-static.html)
+* [자바 - 동적인 클래스 로딩과 ClassLoader](https://javacan.tistory.com/entry/1)
 
 ##### [목차로 이동](#목차)
