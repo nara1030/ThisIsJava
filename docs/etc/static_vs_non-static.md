@@ -12,7 +12,7 @@ static vs. non-static
 4. [출처](#출처)
 
 ## 계기
-직원관리 프로그램을 만들며 깨끗한 설계를 위해 Util 클래스(~~거기 넣은 클래스가 진짜 Util인지는 별개로 공통을 분리해놨다~~)를 분리하려고 했다. 하지만 Util 클래스에서 static 멤버를 사용할 수가 없어서 생성 시점에 대해 무지했구나 깨달았다(`아는게 뭘까?-_-;`).
+[직원관리 프로그램](https://github.com/nara1030/EmployeeManagementSystem)을 만들며 깨끗한 설계를 위해 Util 클래스(~~거기 넣은 클래스가 진짜 Util인지는 별개로 공통을 분리해놨다~~)를 분리하려고 했다. 하지만 Util 클래스에서 static 멤버를 사용할 수가 없어서 생성 시점에 대해 무지했구나 깨달았다(`아는게 뭘까?-_-;`).
 
 <img src="../../img/static_load_time.png" width="600" height="400"></br>
 
