@@ -9,7 +9,7 @@ static vs. non-static
 2. [개념](#개념)
 3. [연관](#연관)
 	* [static의 활용](#static의-활용)
-	* [static 멤버와 thread](#static-멤버와-thread]
+	* [static 멤버와 thread](#static-멤버와-thread)
 4. [출처](#출처)
 
 ## 계기
