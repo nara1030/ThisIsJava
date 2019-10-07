@@ -37,6 +37,7 @@
 2. [다형성: 인터페이스와 리플렉션](./docs/etc/polymorphism.md)
 3. [static vs. non-static](./docs/etc/static_vs_non-static.md)
 4. [동적인 클래스 로딩](./docs/etc/dynamic_loading.md)
+5. [디자인 패턴](./docs/etc/design_pattern.md)
 
 ##### [목차로 이동](#목차)
 
