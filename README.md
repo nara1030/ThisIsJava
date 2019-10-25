@@ -38,6 +38,8 @@
 3. [static vs. non-static](./docs/etc/static_vs_non-static.md)
 4. [동적인 클래스 로딩](./docs/etc/dynamic_loading.md)
 5. [디자인 패턴](./docs/etc/design_pattern.md)
+6. [for vs. 재귀](./docs/etc/for_vs_recursion.md)
+7. [인스턴스간 협력: 링크드 리스트](./docs/etc/cooperation_of_instance.md)
 
 ##### [목차로 이동](#목차)
 
