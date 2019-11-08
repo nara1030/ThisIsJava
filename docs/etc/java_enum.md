@@ -29,7 +29,57 @@ Enum
 * We should use enum when we know all possible values of a variable at compile time or design time, though we can add more values in future as and when we identify them`(?)`.
 
 ----
+이러한 type(enum)이 도입된 배경을 살펴보면 그 의도를 더 명확히 알 수 있다. 자바 1.5 버전 이전에 상수를 정의했던 다양한 방법을 살펴본다.
 
+* `class` 내부에 `final static` 선언  
+	```java
+	public class Week {
+		private final static int MONDAY = 1;
+		private final static int TUESDAY = 2;
+		// ...
+	}
+	```
+	* 단점
+		* 가독성 ↓(∵ 상수 집합 ↑)
+		* 중복 변수명 → 컴파일 에러
+* `interface`로 집합 분리  
+	```java
+	interface Week {
+		int MONDAY = 1;		// public static final 생략(∵ interface)
+		int TUESDAY = 2;
+		// ...
+	}
+	
+	interface Month {
+		int JANUARY = 1;
+		int FEBRUARY = 2;
+		// ...
+	}
+	```
+	* 단점
+		* 컴파일 단계에서 에러 검출 x(∵ 서로 다른 `type` 비교 x)  
+		```java
+		if(Week.MONDAY == Month.JANUARY) {	// 런타임 에러
+			System.out.println("두 상수는 같습니다.");
+		}
+		```
+* 같은 집합의 상수들을 하나의 `type`으로 정의  
+	```java
+	class Week {
+		public final static Week MONDAY = new Week();
+		public final static Week TUESDAY = new Week();
+		// ...
+	}
+	
+	class Month {
+		public final static Month JANUARY = new Month();
+		public final static Month FEBRUARY = new Month();
+		// ...
+	}
+	```
+	* 단점
+		* 각각의 상수들이 서로 같은 데이터 타입을 갖지만, 서로 다른 데이터 값을 가짐(∴ 서로 다른 데이터 타입 비교시 컴파일 에러 o)
+		* 단, `switch`문에서 사용 x(∵ `switch`문의 조건에 들어가는 데이터 타입이 제한적)
 
 ##### [목차로 이동](#목차)
 
