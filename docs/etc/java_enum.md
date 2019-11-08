@@ -29,7 +29,7 @@ Enum
 * We should use enum when we know all possible values of a variable at compile time or design time, though we can add more values in future as and when we identify them`(?)`.
 
 ----
-이러한 type(enum)이 도입된 배경을 살펴보면 그 의도를 더 명확히 알 수 있다. 자바 1.5 버전 이전에 상수를 정의했던 다양한 방법을 살펴본다.
+이러한 type(**enum**)이 도입된 배경을 살펴보면 그 의도를 더 명확히 알 수 있다. 자바 1.5 버전 이전에 **상수**를 정의했던 다양한 방법을 살펴본다.
 
 * `class` 내부에 `final static` 선언  
 	```java
@@ -81,7 +81,11 @@ Enum
 		* 각각의 상수들이 서로 같은 데이터 `type`을 갖지만, 서로 다른 데이터 값을 가짐(∴ 서로 다른 데이터 `type` 비교시 컴파일 에러 o)
 		* 단, `switch`문에서 사용 x(∵ `switch`문의 조건에 들어가는 데이터 `type`이 제한적)
 
-위의 문제점들을 해결한 방법 중 하나가 바로 **enum** `type`이다.
+위의 문제점들을 해결한 방법 중 하나가 바로 **enum** `type`이다. 즉, **enum**을 사용하는 이유는 다음과 같다.
+
+* 코드 가독성 향상
+* .
+* .
 		
 ##### [목차로 이동](#목차)
 
