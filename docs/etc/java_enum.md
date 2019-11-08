@@ -45,7 +45,7 @@ Enum
 * `interface`로 집합 분리  
 	```java
 	interface Week {
-		int MONDAY = 1;		// public static final 생략(∵ interface)
+		int MONDAY = 1;	// public static final 생략(∵ interface)
 		int TUESDAY = 2;
 		// ...
 	}
@@ -78,9 +78,11 @@ Enum
 	}
 	```
 	* 단점
-		* 각각의 상수들이 서로 같은 데이터 타입을 갖지만, 서로 다른 데이터 값을 가짐(∴ 서로 다른 데이터 타입 비교시 컴파일 에러 o)
-		* 단, `switch`문에서 사용 x(∵ `switch`문의 조건에 들어가는 데이터 타입이 제한적)
+		* 각각의 상수들이 서로 같은 데이터 `type`을 갖지만, 서로 다른 데이터 값을 가짐(∴ 서로 다른 데이터 `type` 비교시 컴파일 에러 o)
+		* 단, `switch`문에서 사용 x(∵ `switch`문의 조건에 들어가는 데이터 `type`이 제한적)
 
+위의 문제점들을 해결한 방법 중 하나가 바로 **enum** `type`이다.
+		
 ##### [목차로 이동](#목차)
 
 ## 상세
