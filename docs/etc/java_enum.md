@@ -18,12 +18,18 @@ Enum
 * Enumeration in Java is supported by keyword `enum`.
 	* enums are a special type of class that always extends [java.lang.Enum](https://docs.oracle.com/javase/10/docs/api/java/lang/Enum.html).
 * After JDK 1.4, Java designers decided to support it in Java also, and it was **officially released in JDK 1.5 release**.
-	
+
+----
+위 내용을 바탕으로 이해한 바를 적어보면 **Java enum**이란 `class`나 `interface`처럼 일종의 **type**이다. 그렇다면 무엇을 선언하기 위한 **type**이냐? 바로 상수(**constant**), 특히 고정(**fixed**)되어 있고 서로 연관(**related**)된 상수들을 선언하기 위함임을 알 수 있다.
+
 ##### [목차로 이동](#목차)
 
 ### 배경
 * The very purpose of enum is to **enforce compile time type safety**.
 * We should use enum when we know all possible values of a variable at compile time or design time, though we can add more values in future as and when we identify them`(?)`.
+
+----
+
 
 ##### [목차로 이동](#목차)
 
@@ -78,5 +84,6 @@ public class EnumExample {
 
 ## 참고
 * [Java Enum - HowToDoInJava](https://howtodoinjava.com/java/enum/enum-tutorial/)
+* [Java: enum의 뿌리를 찾아서... - NEXTREE](http://www.nextree.co.kr/p11686/)
 
 ##### [목차로 이동](#목차)
