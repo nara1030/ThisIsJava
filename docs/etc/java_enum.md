@@ -141,5 +141,6 @@ public class EnumExample {
 ## 참고
 * [Java Enum - HowToDoInJava](https://howtodoinjava.com/java/enum/enum-tutorial/)
 * [Java: enum의 뿌리를 찾아서... - NEXTREE](http://www.nextree.co.kr/p11686/)
+* [Effective Java Ch6 Enums and Annotations - Sophie](http://128.199.231.48/effective-java-ch-6-enums-and-annotations/)
 
 ##### [목차로 이동](#목차)
