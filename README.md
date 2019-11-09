@@ -42,6 +42,7 @@
 7. [인스턴스간 협력: 링크드 리스트](./docs/etc/cooperation_of_instance.md)
 8. [프로그래밍 패러다임](./docs/etc/programming_paradigm.md)
 9. [Java enum](./docs/etc/java_enum.md)
+10. [객체 지향 공부](./docs/etc/java_oop.md)
 
 ##### [목차로 이동](#목차)
 
