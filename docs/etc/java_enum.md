@@ -329,9 +329,9 @@ public class Test {
 }
 ```
 
-Like most collection implementations, **`EnumSet` is not synchronized**. If multiple threads access an enum set concurrently, and at least one of the threads modifies the set, it should be synchronized externally.
+Like most collection implementations, **`EnumSet` is not synchronized**. If multiple threads access an enum set concurrently, and at least one of the threads modifies the set, it should be synchronized externally(`??`).
 
-`null` 
+`null` elements are not permitted. Also, these sets guarantee the ordering of the elements in the set based on their order in the enumeration constants is declared. Performance and memory benefits are very high in comparison to a regular set implementation(`순서 보장과 관계??`).
 
 ##### [목차로 이동](#목차)
 
