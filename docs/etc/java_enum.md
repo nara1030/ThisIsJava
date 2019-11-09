@@ -299,7 +299,17 @@ You can **enforce a contract for all enums** to be created in this way. It can s
 
 ### 활용
 #### Enum collections - EnumMap and EnumSet
+Two classes have been added to `java.util` package in support of enums - [EnumSet](https://docs.oracle.com/javase/7/docs/api/java/util/EnumSet.html) and [EnumMap](https://docs.oracle.com/javase/7/docs/api/java/util/EnumMap.html).
 
+* `EnumSet`: a high-performance Set implementation for enums; all members of an enum set must be of the same enum type
+* `EnumMap`: a high-performance Map implementation for use with enum keys
+
+##### java.util.EnumSet
+
+
+##### [목차로 이동](#목차)
+
+##### java.util.EnumMap
 
 ##### [목차로 이동](#목차)
 
