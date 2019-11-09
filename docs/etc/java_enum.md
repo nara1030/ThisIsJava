@@ -11,8 +11,10 @@ Enum
 	* [사용](#사용)
 		* [Constructor](#Constructor)
 		* [Methods](#Methods)
-	* 활용
-		* [EnumMap and EnumSet](#EnumMap-and-EnumSet)
+	* [활용](#활용)
+		* [Enum collections - EnumMap and EnumSet](#Enum-collections---EnumMap-and-EnumSet)
+	* [예시](#예시)
+		* [if문 대체](#if문-대체)
 3. [참고](#참고)
 
 ## 개요
@@ -217,7 +219,138 @@ enum의 각 열거형 상수에 추가 속성(위에선 `state`라고 썼는데,
 ##### [목차로 이동](#목차)
 
 #### Methods
+Remember that enum is basically a special class type, and can have methods and fields just like any other class. You can add methods which are **abstract** as well as **concrete methods** as well. Both methods are allowed in enum.
 
+##### concrete methods in enum
+Adding a concrete method in enum is similar to add same method in any other class. You can use any access specifier e.g. `public`, `private`, or `protected`. You can return values from enum methods or simply use them to perform internal logic.
+
+```java
+// enum : non-abstract method
+public enum Direction {
+	EAST, WEST, NORTH, SOUTH;
+	
+	protected String printDirection() {
+		String message = "You are moving in " + this + " direction";
+		System.out.println(message);
+		return message;
+	}
+}
+```
+
+You can call `printDirection()` method as simple method calls on **enum instance**.
+
+```java
+// EnumExample.java
+Direction.NORTH.printDirection();	// You are moving in NORTH direction
+
+Direction.EAST.printDirection();	// You are moving in EAST direction
+```
+
+##### abstract methods in enum
+We can add **abstract method in enums**. In this case, we must implement the abstract method **at each enum field**, individually.
+
+```java
+public enum Direction {
+	EAST {
+		@Override
+		public String printDirection() {
+			String message = "You are moving in east. You will face sun in morning time."
+			return message;
+		}
+	},
+	WEST {
+		@Override
+		public String printDirection() {
+			String message = "You are moving in west. You will face sun in evening time."
+			return message;
+		}	
+	},
+	NORTH {
+		@Override
+		public String printDirection() {
+			String message = "You are moving in north. You will face head in daytime."
+			return message;
+		}
+	},
+	SOUTH {
+		@Override
+		public String printDirection() {
+			String message = "You are moving in south. Sea ahead."
+			return message;
+		}
+	};
+	
+	public abstract String printDirection();
+}
+```
+
+Re-run above example.
+
+```java
+// EnumExample.java
+Direction.NORTH.printDirection();	// You are moving in north. You will face head in daytime.
+
+Direction.EAST.printDirection();	// You are moving in east. You will face sun in morning time.
+```
+
+You can **enforce a contract for all enums** to be created in this way. It can serve as **template for enum creation**.
+
+##### [목차로 이동](#목차)
+
+### 활용
+#### Enum collections - EnumMap and EnumSet
+
+
+##### [목차로 이동](#목차)
+
+### 예시
+
+#### if문 대체
+**enum**을 사용해서 `if`문 사용을 대체할 수 있다(∵ 가독성 ↑).
+
+```java
+public enum PowerSwitch {
+	ON("켜짐"),
+	OFF("꺼짐");
+	
+	private String krName;
+	
+	private PowerSwitch(String krName) {
+		this.krName = krName;
+	}
+	
+	public String getKrName() {
+		return krName;
+	}
+	
+	public PowerSwitch opposite() {
+		if(this == PowerSwitch.ON) {
+			return PowerSwitch.OFF;
+		} else {
+			return PowerSwitch.ON;
+		}
+	}
+}
+```
+
+enum을 통해 `ON`, `OFF` 이름으로 각각 상수를 정의한다. 그리고 `opposite()` 메소드를 통해 `ON` 상수에서 호출하면 `OFF`를 반환하고, `OFF` 상수에서 호출하면 `ON`을 반환하게 되는 메소드다.
+
+```java
+public class PowerSwitchMain {
+	public static void main(String[] args) {
+		PowerSwitch powerSwitch = PowerSwitch.ON;
+		displayByPowerSwitch(powerSwitch.opposite());	// 전원이 꺼짐
+	}
+	
+	public static void displayByPowerSwitch(PowerSwitch powerSwitch) {
+		if(powerSwitch == PowerSwitch.ON) {
+			System.out.println("전원이 " + PowerSwitch.ON.getKrName());
+		} else {
+			System.out.println("전원이 " + PowerSwitch.OFF.getKrName());
+		}
+	}
+}
+```
 
 ##### [목차로 이동](#목차)
 
