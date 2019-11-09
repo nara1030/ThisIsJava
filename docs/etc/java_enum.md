@@ -315,6 +315,7 @@ public abstract class EnumSet<E extends Enum<E>>
 }
 ```
 
+A specialized `Set` implementation for use with enum types. All of the elements in an enum set must come from **a single enum type** that is specified, explicitly or implicitly, when the set is created.
 
 ```java
 public class Test {
@@ -327,6 +328,10 @@ public class Test {
 	}
 }
 ```
+
+Like most collection implementations, **`EnumSet` is not synchronized**. If multiple threads access an enum set concurrently, and at least one of the threads modifies the set, it should be synchronized externally.
+
+`null` 
 
 ##### [목차로 이동](#목차)
 
