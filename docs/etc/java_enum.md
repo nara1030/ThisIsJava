@@ -178,7 +178,39 @@ public class EnumExample {
 ##### [목차로 이동](#목차)
 
 #### Constructor
+By default, **enums don't require constructor** definitions and their default values are always the string used in the declaration. Though, you can give define your own constructors to initialize the `state` of enum types.
 
+For example, we can add `angle` attribute to direction. All directions have some angle. So let's add them.
+
+```java
+// enum with constructor
+public enum Direction {
+	EAST(0), WEST(180), NORTH(90), SOUTH(270);
+	
+	private Direction(final int angle) {	// 매개변수에 final을..?
+		this.angle = angle;
+	}
+	
+	private int angle;
+	
+	public int getAngle() {
+		return angle;
+	}
+}
+```
+
+If you want to access angle for any direction, we can make a simple method call in enum field reference.
+
+```java
+// EnumExample.java
+Direction north = Direction.NORTH;
+System.out.println(north);		// NORTH
+System.out.println(north.getAngle());	// 90
+System.out.println(Direction.NORTH.getAngle());	// 90
+```
+
+- - -
+enum의 각 열거형 상수에 추가 속성(위에선 `state`라고 썼는데, 구체적으로는 `angle`)을 부여할 수 있다. 즉, 속성(메소드나 필드)을 enum 타입에 추가하면 enum 상수에 데이터를 연관시킬 수 있다. 예로 생성자의 파라미터를 통해 추가 속성을 enum 클래스의 필드에 설정해주고, getter 메소드(`getAngle()`)를 통해 해당 속성을 가져다 쓸 수 있다.
 
 ##### [목차로 이동](#목차)
 
