@@ -6,7 +6,13 @@ Enum
 	* [배경](#배경)
 2. [상세](#상세)
 	* [선언](#선언)
+		* [Inheritance](#Inheritance)
+		* [Compare](#Compare)
 	* [사용](#사용)
+		* [Constructor](#Constructor)
+		* [Methods](#Methods)
+	* 활용
+		* [EnumMap and EnumSet](#EnumMap-and-EnumSet)
 3. [참고](#참고)
 
 ## 개요
@@ -84,8 +90,8 @@ Enum
 위의 문제점들을 해결한 방법 중 하나가 바로 **enum** `type`이다. 즉, **enum**을 사용하는 이유는 다음과 같다.
 
 * 코드 가독성 향상
-* .
-* .
+* 인스턴스 생성과 상속 방지
+* 구현 의도 열거임을 명시
 		
 ##### [목차로 이동](#목차)
 
@@ -123,6 +129,39 @@ final class Direction extends Enum<Direction> {
 
 ##### [목차로 이동](#목차)
 
+#### Inheritance
+As mentioned eariler, **enum extends Enum class**. `java.lang.Enum` is an abstract class. This is the common base class of all Java enumeration types.
+
+```java
+// java.lang.Enum.java
+public abstract class Enum<E extends Enum<E>>
+					extends Object
+					implements Comparable<E>, Serializable {
+}
+```
+
+It means that all enums are **comparable** and **serializable** implicitly. Also, all enum types in Java are **singleton** by default(`컴파일 확인해야 알 수 있는, 외워야 하는건가?`).
+
+As noted all enums extends `java.lang.Enum`, so **enum cannot extend any other class** because Java does not support multiple inheritance this way. But enums can implement any number of interfaces.
+
+##### [목차로 이동](#목차)
+
+#### Compare
+All enums are by default **comparable and singletons** as well. It means you can compare them with `equals()` method, even with `"=="` operator.
+
+```java
+// EnumExample.java
+Direction east = Direction.EAST;
+Direction eastNew = Direction.valueOf("EAST");
+
+System.out.println(east == eastNew);	// true
+System.out.println(east.equals(eastNew));	true
+```
+
+참고로, 같은 타입에 대한 비교만 가능하다(∵ 컴파일 에러 검출).
+
+##### [목차로 이동](#목차)
+
 ### 사용
 We can use the enum just like we use `final static` fields.
 
@@ -135,6 +174,15 @@ public class EnumExample {
 	}
 }
 ```
+
+##### [목차로 이동](#목차)
+
+#### Constructor
+
+
+##### [목차로 이동](#목차)
+
+#### Methods
 
 ##### [목차로 이동](#목차)
 
