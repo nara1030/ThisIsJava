@@ -154,8 +154,8 @@ All enums are by default **comparable and singletons** as well. It means you can
 Direction east = Direction.EAST;
 Direction eastNew = Direction.valueOf("EAST");
 
-System.out.println(east == eastNew);	// true
-System.out.println(east.equals(eastNew));	true
+System.out.println(east == eastNew);		// true
+System.out.println(east.equals(eastNew));	// true
 ```
 
 참고로, 같은 타입에 대한 비교만 가능하다(∵ 컴파일 에러 검출).
