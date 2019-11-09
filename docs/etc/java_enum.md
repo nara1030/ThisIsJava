@@ -135,8 +135,8 @@ As mentioned eariler, **enum extends Enum class**. `java.lang.Enum` is an abstra
 ```java
 // java.lang.Enum.java
 public abstract class Enum<E extends Enum<E>>
-					extends Object
-					implements Comparable<E>, Serializable {
+			extends Object
+			implements Comparable<E>, Serializable {
 }
 ```
 
