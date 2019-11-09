@@ -301,11 +301,32 @@ You can **enforce a contract for all enums** to be created in this way. It can s
 #### Enum collections - EnumMap and EnumSet
 Two classes have been added to `java.util` package in support of enums - [EnumSet](https://docs.oracle.com/javase/7/docs/api/java/util/EnumSet.html) and [EnumMap](https://docs.oracle.com/javase/7/docs/api/java/util/EnumMap.html).
 
-* `EnumSet`: a high-performance Set implementation for enums; all members of an enum set must be of the same enum type
+* `EnumSet`: a high-performance Set implementation for enums
+	* all members of an enum set must be of the same enum type
 * `EnumMap`: a high-performance Map implementation for use with enum keys
 
 ##### java.util.EnumSet
+**EnumSet** class is defined as follows:
 
+```java
+public abstract class EnumSet<E extends Enum<E>>
+		extends AbstractSet<E>
+		implements Cloneable, Serializable {
+}
+```
+
+
+```java
+public class Test {
+	public static void main(String[] args) {
+		Set enumSet = EnumSet.of( Direction.EAST,
+					Direction.WEST,
+					Direction.NORTH,
+					Direction.SOUTH
+					);
+	}
+}
+```
 
 ##### [목차로 이동](#목차)
 
