@@ -393,6 +393,10 @@ public class PowerSwitchMain {
 ## 참고
 * [Java Enum - HowToDoInJava](https://howtodoinjava.com/java/enum/enum-tutorial/)
 * [Java: enum의 뿌리를 찾아서... - NEXTREE](http://www.nextree.co.kr/p11686/)
+---
 * [Effective Java Ch6 Enums and Annotations - Sophie](http://128.199.231.48/effective-java-ch-6-enums-and-annotations/)
+* [A Guide to Java Enums - Baeldung](https://www.baeldung.com/a-guide-to-java-enums)
+* [Strategy Pattern Implemented as an Enum Using Lambdas - DZone](https://dzone.com/articles/strategy-pattern-implemented-as-an-enum-using-lamb)
+* [Java Enums - JENKOV](http://tutorials.jenkov.com/java/enums.html#enum-misc-details)
 
 ##### [목차로 이동](#목차)
