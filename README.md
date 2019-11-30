@@ -43,6 +43,7 @@
 8. [프로그래밍 패러다임](./docs/etc/programming_paradigm.md)
 9. [Java enum](./docs/etc/java_enum.md)
 10. [객체 지향 공부](./docs/etc/java_oop.md)
+11. [SOLID](./docs/etc/oop_solid.md)
 
 ##### [목차로 이동](#목차)
 
