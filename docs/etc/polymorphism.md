@@ -67,15 +67,21 @@
 ##### [목차로 이동](#목차)
 
 ## 참고
-
+* [자바 리플렉션에 대한 오해와 진실 - socurites님](java_reflection_by_socurites.pdf)
+* 실무 - nhj12311님
+	* [기본](https://steemit.com/kr-dev/@nhj12311/java-reflection)
+	* [활용](https://steemit.com/kr-dev/@nhj12311/2-java-reflection)
+	* [BCI](https://steemit.com/kr-dev/@nhj12311/bci-java-bci-byte-code-instrumentation-1)
+	* [AOP - Dynamic Proxy](https://busy.org/@nhj12311/aop-jdk-dynamic-proxy-java-aop-2)
 * 어노테이션과 리플렉션
 	* [자바 어노테이션과 리플렉션이란?](https://qssdev.tistory.com/27)
 	* [어노테이션과 리플렉션을 이용한 메소드 실행시간 출력하기](https://118k.tistory.com/106)
-
 * 팩토리 패턴과 리플렉션
 	* [리플랙션 패턴](https://m.blog.naver.com/PostView.nhn?blogId=since890513&logNo=220220758867&proxyReferer=https%3A%2F%2Fwww.google.com%2F)
 	* [Factory Pattern](https://www.oodesign.com/factory-pattern.html)
 	* [Abstract Factory, Factory Method vs Reflection](https://www.linkedin.com/pulse/abstract-factory-method-vs-reflection-eman-mughal/)
 	* [Factory via Reflection](http://technojeeves.com/index.php/65-java-factory-via-reflection-and-properties)
-	
+* 추후 공부
+	* [자바 API 인터페이스 사례](https://github.com/nara1030/spring-basic/blob/master/book/oop_for_spring_jmkim/ch_3.md#%EC%83%81%EC%86%8D%EA%B3%BC-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4)
+
 ##### [목차로 이동](#목차)
