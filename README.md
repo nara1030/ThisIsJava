@@ -44,6 +44,7 @@
 9. [Java enum](./docs/etc/java_enum.md)
 10. [객체 지향 공부](./docs/etc/java_oop.md)
 11. [SOLID](./docs/etc/oop_solid.md)
+12. [자바 버전별 특징](./docs/etc/java_versions_summary.md)
 
 ##### [목차로 이동](#목차)
 
