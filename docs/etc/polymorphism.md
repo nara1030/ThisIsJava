@@ -67,6 +67,8 @@
 ##### [목차로 이동](#목차)
 
 ## 참고
+추후 정리.
+
 * [자바 리플렉션에 대한 오해와 진실 - socurites님](java_reflection_by_socurites.pdf)
 * 실무 - nhj12311님
 	* [기본](https://steemit.com/kr-dev/@nhj12311/java-reflection)
@@ -83,5 +85,7 @@
 	* [Factory via Reflection](http://technojeeves.com/index.php/65-java-factory-via-reflection-and-properties)
 * 추후 공부
 	* [자바 API 인터페이스 사례](https://github.com/nara1030/spring-basic/blob/master/book/oop_for_spring_jmkim/ch_3.md#%EC%83%81%EC%86%8D%EA%B3%BC-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4)
-
+* [Reflection - 미래의 개발왕님](https://countryxide.tistory.com/75)
+* [자바의 리플렉션 - 강관우님](https://brunch.co.kr/@kd4/8)
+	
 ##### [목차로 이동](#목차)
