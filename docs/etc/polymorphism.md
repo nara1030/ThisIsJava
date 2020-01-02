@@ -90,7 +90,7 @@ try {
 }
 ```
 
-<img src="../../img/reflection_1.png" width="300" height="150"></br>
+<img src="../../img/reflection_1.png" width="400" height="150"></br>
 
 두 경우의 실행결과가 같음을 확인할 수 있다. 정리하면 자바는 클래스와 인터페이스의 메타데이터를 java.lang 패키지가 소속된 Class 클래스로 관리한다(메타 데이터: 클래스의 이름, 생성자 정보, 필드 정보, 메소드 정보). 이 Class 객체를 얻기 위해 예제 코드에서 확인했듯 두 가지 방법이 있다.
 
