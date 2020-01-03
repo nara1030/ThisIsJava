@@ -139,7 +139,15 @@ try {
 추후 정리.
 
 * [자바 어노테이션과 리플렉션이란?](https://qssdev.tistory.com/27)
+* [자바 리플렉션으로 어노테이션 다루기](https://hamait.tistory.com/317)
+* [자바 어노테이션](https://jdm.kr/blog/216)
+* [리플렉션 > 어노테이션 정보 얻기](https://m.blog.naver.com/PostView.nhn?blogId=javaking75&logNo=220727816394&proxyReferer=https%3A%2F%2Fwww.google.com%2F)
+
+- - -
+
 * [어노테이션과 리플렉션을 이용한 메소드 실행시간 출력하기](https://118k.tistory.com/106)
+* [리플렉션에 관해](https://orangejang.tistory.com/23)
+* [자바 커스텀 어노테이션](https://medium.com/@ggikko/java-%EC%BB%A4%EC%8A%A4%ED%85%80-annotation-436253f395ad)
 
 ##### [목차로 이동](#목차)
 
@@ -147,11 +155,6 @@ try {
 추후 정리.
 
 * [자바 리플렉션에 대한 오해와 진실 - socurites님](java_reflection_by_socurites.pdf)
-* 실무 - nhj12311님
-	* [기본](https://steemit.com/kr-dev/@nhj12311/java-reflection)
-	* [활용](https://steemit.com/kr-dev/@nhj12311/2-java-reflection)
-	* [BCI](https://steemit.com/kr-dev/@nhj12311/bci-java-bci-byte-code-instrumentation-1)
-	* [AOP - Dynamic Proxy](https://busy.org/@nhj12311/aop-jdk-dynamic-proxy-java-aop-2)
 * 팩토리 패턴과 리플렉션
 	* [리플랙션 패턴](https://m.blog.naver.com/PostView.nhn?blogId=since890513&logNo=220220758867&proxyReferer=https%3A%2F%2Fwww.google.com%2F)
 	* [Factory Pattern](https://www.oodesign.com/factory-pattern.html)
