@@ -67,7 +67,7 @@
 > 자바의 모든 클래스는 그 클래스 자체의 구성정보를 담은 Class 타입의 오브젝트를 하나씩 갖고 있다. '클래스이름.class'라고 하거나 오브젝트의 getClass() 메소드를 호출하면 클래스 정보를 담은 Class 타입의 오브젝트를 가져올 수 있다.  
 > 출처: [토비의 스프링 3.1 Vo1.1 6장](https://countryxide.tistory.com/75)
 
-그럼 리플렉션은 왜 사용하는 것일까? 그 해답은 바로 위의 언급대로 리플렉션이 구체적인 클래스 타입을 알지 못해도, 그 클래스의 메소드, 타입, 변수들에 접근(∵ Class 오브젝트)할수 있도록 해주기 때문이다. 아래는 [관련 예제 코드](https://cornswrold.tistory.com/352)다.
+그럼 리플렉션은 **왜** 사용하는 것일까? 그 해답은 바로 위의 언급대로 리플렉션이 구체적인 클래스 타입을 알지 못해도, 그 클래스의 메소드, 타입, 변수들에 접근(∵ Class 오브젝트)할수 있도록 해주기 때문이다. 아래는 [관련 예제 코드](https://cornswrold.tistory.com/352)다.
 
 ```java
 // main 메서드 내부
@@ -118,6 +118,17 @@ try {
 
 추가로 리플렉션이 가능한 이유는 자바 클래스 파일은 바이트 코드로 컴파일되어 static 영역에 위치하므로 클래스 이름만 알고 있다면 언제든 이 영역을 뒤져서 클래스에 대한 정보를 가져올 수 있는 것이다(`?`).
 
+그렇다면 리플렉션은 **언제** 사용하면 좋을까? 범용적으로 리플렉션은 권장할만한 것은 아니지만(∵ 컴파일 검사 무시하므로 권한이나 보안 깨뜨림) 팩토리 팩턴을 이용해 객체를 생성할 때는 유용하게 쓰인다. 이 경우 switch나 if문으로 분기 처리하는 방법 대신 단순한 코드로 객체 생성이 가능해진다(∴ OCP 준수).
+
+추후 정리.
+
+* [자바 리플렉션](https://noritersand.github.io/java/2013/12/05/java-%EC%9E%90%EB%B0%94-%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98-reflection/)
+* [Factory Pattern](https://www.oodesign.com/factory-pattern.html)
+* [Factory via Reflection](http://technojeeves.com/index.php/65-java-factory-via-reflection-and-properties)
+* Logger
+	* [LoggerFactory.getLogger](https://stackoverflow.com/questions/33779127/loggerfactory-getloggerclassname-class-vs-loggerfactory-getloggerthis-getclas)
+	* [java reflection에서 type conversion 어떻게 처리하면 좋을까?](https://www.slipp.net/questions/85)
+
 - - -
 * [`이것이 자바다`](https://github.com/nara1030/ThisIsJava) 교재에서도 리플렉션에 대해 언급
 	* [클래스 - 어노테이션](https://github.com/nara1030/ThisIsJava/blob/master/docs/%ED%81%B4%EB%9E%98%EC%8A%A4.md)
@@ -152,14 +163,7 @@ try {
 ##### [목차로 이동](#목차)
 
 ## 참고
-추후 정리.
-
 * [자바 리플렉션에 대한 오해와 진실 - socurites님](java_reflection_by_socurites.pdf)
-* 팩토리 패턴과 리플렉션
-	* [리플랙션 패턴](https://m.blog.naver.com/PostView.nhn?blogId=since890513&logNo=220220758867&proxyReferer=https%3A%2F%2Fwww.google.com%2F)
-	* [Factory Pattern](https://www.oodesign.com/factory-pattern.html)
-	* [Abstract Factory, Factory Method vs Reflection](https://www.linkedin.com/pulse/abstract-factory-method-vs-reflection-eman-mughal/)
-	* [Factory via Reflection](http://technojeeves.com/index.php/65-java-factory-via-reflection-and-properties)
 * 추후 공부
 	* [자바 API 인터페이스 사례](https://github.com/nara1030/spring-basic/blob/master/book/oop_for_spring_jmkim/ch_3.md#%EC%83%81%EC%86%8D%EA%B3%BC-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4)
 	
