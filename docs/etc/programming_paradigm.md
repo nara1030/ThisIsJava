@@ -78,5 +78,7 @@
 * [절차적 프로그래밍 - 위키백과](https://ko.wikipedia.org/wiki/%EC%A0%88%EC%B0%A8%EC%A0%81_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
 * [객체지향 프로그래밍 - 위키백과](https://ko.wikipedia.org/wiki/%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
 * [선언형 프로그래밍 - 위키백과](https://ko.wikipedia.org/wiki/%EC%84%A0%EC%96%B8%ED%98%95_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
+- - -
+* [객체지향에 남아있는 절차/구조적 프로그래밍의 유산](https://github.com/nara1030/spring-basic/blob/master/book/oop_for_spring_jmkim/ch_2.md#%EC%A0%88%EC%B0%A8-%EB%B0%8F-%EA%B5%AC%EC%A1%B0%EC%A0%81-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9C%A0%EC%82%B0)
 
 ##### [목차로 이동](#목차)
