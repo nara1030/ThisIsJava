@@ -18,10 +18,10 @@
 ```
 <javax.servlet>
 Servlet
-	↑
+  ↑
 <abstract>
 GenericServlet
-	↑
+  ↑
 <abstract>
 HttpServlet
 ```
