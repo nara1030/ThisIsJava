@@ -17,13 +17,13 @@
 
 ```
 <javax.servlet>
-	Servlet
-	   ↑
-   <abstract>
- GenericServlet
-	   ↑
-   <abstract>
-   HttpServlet
+Servlet
+	↑
+<abstract>
+GenericServlet
+	↑
+<abstract>
+HttpServlet
 ```
 
 ##### [목차로 이동](#목차)
