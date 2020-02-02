@@ -37,14 +37,13 @@
 ## 기타
 ### 인터뷰
 1. [오버로딩과 오버라이딩](./docs/etc/overloading_vs_overriding.md)
-2. [다형성: 인터페이스와 리플렉션](./docs/etc/polymorphism.md)
-3. [static vs. non-static](./docs/etc/static_vs_non-static.md)
-4. [Recursion vs. Iteration](./docs/etc/iteration_vs_recursion.md)
-5. [인스턴스간 협력: 링크드 리스트](./docs/etc/cooperation_of_instance.md)
-6. [인터페이스와 추상클래스](./docs/etc/interface_vs_abstract.md)
-7. [Java enum](./docs/etc/java_enum.md)
+2. [인터페이스와 추상클래스](./docs/etc/interface_vs_abstract.md)
+3. [다형성: 인터페이스와 리플렉션](./docs/etc/polymorphism.md)
+4. [static vs. non-static](./docs/etc/static_vs_non-static.md)
+5. [Recursion vs. Iteration](./docs/etc/iteration_vs_recursion.md)
+6. [인스턴스간 협력: 링크드 리스트](./docs/etc/cooperation_of_instance.md)
+7. [Java Enum](./docs/etc/java_enum.md)
 8. 예외 처리
-9. [SOLID](./docs/etc/oop_solid.md)
 
 ##### [목차로 이동](#목차)
 
@@ -54,6 +53,7 @@
 3. [프로그래밍 패러다임](./docs/etc/programming_paradigm.md)
 4. [객체 지향 공부](./docs/etc/java_oop.md)
 5. [자바 버전별 특징](./docs/etc/java_versions_summary.md)
+6. [SOLID](./docs/etc/oop_solid.md)
 
 ##### [목차로 이동](#목차)
 
