@@ -36,7 +36,7 @@
 
 ## 기타
 ### 인터뷰
-1. 오버로딩과 오버라이딩
+1. [오버로딩과 오버라이딩](overloading_vs_overriding.md)
 2. [다형성: 인터페이스와 리플렉션](./docs/etc/polymorphism.md)
 3. [static vs. non-static](./docs/etc/static_vs_non-static.md)
 4. [Recursion vs. Iteration](./docs/etc/iteration_vs_recursion.md)
