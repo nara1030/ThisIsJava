@@ -1,4 +1,4 @@
-다형성: 인터페이스와 리플렉션
+인터페이스와 리플렉션
 =====
 리플렉션보다는 인터페이스를 사용하라
 - - -
@@ -24,17 +24,6 @@
 	* 인터페이스(상속/구현)
 	* 리플렉션
 
-**좀 더 깊이**
-
-* [메서드 시그니처](https://wanna-b.tistory.com/75)(Method signature)란
-	* `메서드 이름`과 `매개변수 리스트`
-		* 자바 컴파일러는 [메서드 이름과 매개변수 리스트](https://stackoverflow.com/questions/16149285/does-a-methods-signature-in-java-include-its-return-type)를 통해 메서드 간 차이를 식별(`오버로딩`)  
-		<img src="../../img/overload_compiler.png" width="400" height="300"></br>
-	* (위에서 답이 나왔지만) 왜 `리턴타입`은 빼고 이 두 가지만?
-		* [다형성에 입장에서 생각](https://bitsoul.tistory.com/55)해보면, 리턴 타입은 재정의 가능해야 함(`오버라이딩`)
-			* 원칙적으로 상속 관계에서 메소드 오버라이딩은 `리턴타입`, `메소드 이름`, `매개변수 리스트`가 완전히 동일해야 함
-			* 그러나 `리턴타입`에 있어서는 다형성 때문에 자동 형변환이 발생할 수 있다면 재정의 허용
-	
 ##### [목차로 이동](#목차)
 	
 ## 인터페이스
@@ -166,5 +155,5 @@ try {
 * [자바 리플렉션에 대한 오해와 진실 - socurites님](java_reflection_by_socurites.pdf)
 * 추후 공부
 	* [자바 API 인터페이스 사례](https://github.com/nara1030/spring-basic/blob/master/book/oop_for_spring_jmkim/ch_3.md#%EC%83%81%EC%86%8D%EA%B3%BC-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4)
-	
+
 ##### [목차로 이동](#목차)

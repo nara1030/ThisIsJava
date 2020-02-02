@@ -38,7 +38,7 @@
 ### 인터뷰
 1. [오버로딩과 오버라이딩](./docs/etc/overloading_vs_overriding.md)
 2. [인터페이스와 추상클래스](./docs/etc/interface_vs_abstract.md)
-3. [다형성: 인터페이스와 리플렉션](./docs/etc/polymorphism.md)
+3. [인터페이스와 리플렉션](./docs/etc/interface_vs_reflection.md)
 4. [static vs. non-static](./docs/etc/static_vs_non-static.md)
 5. [Recursion vs. Iteration](./docs/etc/iteration_vs_recursion.md)
 6. [인스턴스간 협력: 링크드 리스트](./docs/etc/cooperation_of_instance.md)
