@@ -5,6 +5,8 @@
 ## 목차
 1. [CONTENTS](#CONTENTS)
 2. [기타](#기타)
+	* [인터뷰](#인터뷰)
+	* [생각해보기](#생각해보기)
 3. [참고](#참고)
 
 ## CONTENTS
@@ -33,19 +35,25 @@
 ##### [목차로 이동](#목차)
 
 ## 기타
-1. [Double dispatch](./docs/etc/double_dispatch.md)
+### 인터뷰
+1. 오버로딩과 오버라이딩
 2. [다형성: 인터페이스와 리플렉션](./docs/etc/polymorphism.md)
 3. [static vs. non-static](./docs/etc/static_vs_non-static.md)
-4. [동적인 클래스 로딩](./docs/etc/dynamic_loading.md)
-5. [디자인 패턴](./docs/etc/design_pattern.md)
-6. [Recursion vs. Iteration](./docs/etc/iteration_vs_recursion.md)
-7. [인스턴스간 협력: 링크드 리스트](./docs/etc/cooperation_of_instance.md)
-8. [프로그래밍 패러다임](./docs/etc/programming_paradigm.md)
-9. [Java enum](./docs/etc/java_enum.md)
-10. [객체 지향 공부](./docs/etc/java_oop.md)
-11. [SOLID](./docs/etc/oop_solid.md)
-12. [자바 버전별 특징](./docs/etc/java_versions_summary.md)
-13. [인터페이스와 추상클래스](./docs/etc/interface_vs_abstract.md)
+4. [Recursion vs. Iteration](./docs/etc/iteration_vs_recursion.md)
+5. [인스턴스간 협력: 링크드 리스트](./docs/etc/cooperation_of_instance.md)
+6. [인터페이스와 추상클래스](./docs/etc/interface_vs_abstract.md)
+7. [Java enum](./docs/etc/java_enum.md)
+8. 예외 처리
+9. [SOLID](./docs/etc/oop_solid.md)
+
+##### [목차로 이동](#목차)
+
+### 생각해보기
+1. [Double dispatch](./docs/etc/double_dispatch.md)
+2. [동적인 클래스 로딩](./docs/etc/dynamic_loading.md)
+3. [프로그래밍 패러다임](./docs/etc/programming_paradigm.md)
+4. [객체 지향 공부](./docs/etc/java_oop.md)
+5. [자바 버전별 특징](./docs/etc/java_versions_summary.md)
 
 ##### [목차로 이동](#목차)
 
