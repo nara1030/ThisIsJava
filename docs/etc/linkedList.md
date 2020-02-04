@@ -16,7 +16,8 @@
 #### UML
 
 #### 코드
-다음 [알고리즘 - 지하철 노드 탐색](https://nowonbun.tistory.com/326) 사이트를 참고해 작성했고 추후 수정.
+* [링크](https://github.com/nara1030/ThisIsJava/tree/master/src/subway/src/main/java/com/eom/subway)(추후 수정)
+* 참고: [알고리즘 - 지하철 노드 탐색](https://nowonbun.tistory.com/326)
 
 ##### [목차로 이동](#목차)
 
