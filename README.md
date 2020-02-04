@@ -42,7 +42,7 @@
 4. [static vs. non-static](./docs/etc/static_vs_non-static.md)
 5. [Recursion vs. Iteration](./docs/etc/iteration_vs_recursion.md)
 6. 스트림과 반복
-7. [LinkedList](./docs/etc/linkedList.md)
+7. [객체간 협력](./docs/etc/linkedList.md)
 8. [Java Enum](./docs/etc/java_enum.md)
 9. 예외 처리
 10. 입출력
