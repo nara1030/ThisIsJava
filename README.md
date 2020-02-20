@@ -39,7 +39,7 @@
 1. [오버로딩과 오버라이딩](./docs/etc/overloading_vs_overriding.md)
 2. [인터페이스와 추상 클래스](./docs/etc/interface_vs_abstract.md)
 3. [인터페이스와 리플렉션](./docs/etc/interface_vs_reflection.md)
-4. [static vs. non-static](./docs/etc/static_vs_non-static.md)
+4. [Static과 Singleton](./docs/etc/static_vs_singleton.md)
 5. [Recursion vs. Iteration](./docs/etc/iteration_vs_recursion.md)
 6. 스트림과 반복
 7. [객체간 협력](./docs/etc/linkedList.md)
