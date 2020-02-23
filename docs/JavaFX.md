@@ -44,7 +44,7 @@ JavaFX
 ### 레이아웃
 레이아웃을 설명하기 앞서, 무대(Stage)와 장면(Scene)에 대해 설명해본다.
 
-<img src="../img/javafx_02.jpg" width="150" height="100"></br>
+<img src="../img/javafx_02.jpg" width="250" height="200"></br>
 
 * JavaFX는 윈도우를 무대(Stage)로 표현
 * 무대는 한 번에 하나의 장면(javafx.scene.Scene)을 가질 수 있음

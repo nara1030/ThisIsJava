@@ -28,7 +28,7 @@
 14. [람다식](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EB%9E%8C%EB%8B%A4%EC%8B%9D.md)
 15. [컬렉션 프레임워크](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EC%BB%AC%EB%A0%89%EC%85%98%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC.md)
 16. [스트림과 병렬처리](https://github.com/nara1030/ThisIsJava/blob/master/docs/%EC%8A%A4%ED%8A%B8%EB%A6%BC%EA%B3%BC%20%EB%B3%91%EB%A0%AC%EC%B2%98%EB%A6%AC.md)
-17. JavaFX
+17. [JavaFX](https://github.com/nara1030/ThisIsJava/blob/master/docs/JavaFX.md#%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88)
 18. IO 기반 입출력 및 네트워킹
 19. NIO 기반 입출력 및 네트워킹
 
