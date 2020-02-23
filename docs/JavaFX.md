@@ -185,6 +185,6 @@ textProperty().addListener(new ChangeListener<String>() {
 ##### [목차로 이동](#목차)
 
 ### 클래스 계층도
-<img src="../img/javafx_07.png" width="350" height="400"></br>
+<img src="../img/javafx_07.png" width="450" height="400"></br>
 
 ##### [목차로 이동](#목차)
