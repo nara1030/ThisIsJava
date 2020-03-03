@@ -18,7 +18,7 @@ static 멤버를 사용하면서 오해했던 부분은 아래 *잘못된 사용
 	<img src="../../img/static_1.png" width="800" height="350"></br>
 	<img src="../../img/static_2.png" width="800" height="350"></br>
 
-다시 보니, *잘못된 사용 예시 2*의 경우는 1의 경우와는 조금 다른 것 같다. static 메소드인 `changeFlag(boolean flag)`에서 매개변수는 지역 변수이다. 즉, Main 클래스의 `main` 메소드에서 `Util.changeFlag(flag)`를 호출했더라도 변화된 flag 값은 메소드 종료와 함께 사라진다(∴ 지역 변수 flag 값은 Main 클래스의 static 멤버 필드인 flag 값에 영향을 주지 못함).
+다시 보니, *잘못된 사용 예시 2*의 경우는 1의 경우와는 조금 다른 것 같다. Util 클래스의 static 메소드인 `changeFlag(boolean flag)`에서 매개변수 flag는 지역 변수이다. 즉, Main 클래스의 `main` 메소드에서 `Util.changeFlag(flag)`를 호출했더라도 변화된 flag 값은 메소드 종료와 함께 사라진다(∴ 지역 변수 flag 값은 Main 클래스의 static 멤버 필드인 flag 값에 영향을 주지 못함).
 
 결론적으로, 클래스 간 공유를 위해서는 메서드 반환 타입을 통해 해당 클래스 필드를 변경시켜주어야 한다. 아래 그림을 보면 Runtime Data Area, 즉 프로그램을 실행하기 위해 JVM이 OS로부터 할당받은 메모리는 총 세 영역으로 구분된다.
 
