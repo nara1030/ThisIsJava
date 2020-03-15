@@ -1,6 +1,7 @@
 이것이 자바다
 =====
-출처: 이것이 자바다, 신용권 저, 한빛미디어
+* 출처: 이것이 자바다, 신용권 저, 한빛미디어
+* [javaalmanac.io](https://javaalmanac.io/)
 - - -
 ## 목차
 1. [CONTENTS](#CONTENTS)
