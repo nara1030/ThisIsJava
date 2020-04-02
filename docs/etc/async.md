@@ -6,7 +6,9 @@
 ## 목차
 1. [개요](#개요)
 	* [개념](#개요)
-	* [언어](#개요)
+	* [언어](#언어)
+		* [자바스크립트](#자바스크립트)
+		* .
 2. [코드](#코드)
 	* [자바](#자바)
 	* [자바스크립트](#자바스크립트)
@@ -74,7 +76,10 @@ func1();
 ##### [목차로 이동](#목차)
 
 ### 언어
-언어마다 특성이 다르므로 비동기 처리를 하는 방식도 다르다. 자바스크립트의 특성을 먼저 살펴보자.
+언어마다 특성이 다르므로 비동기 처리를 하는 방식도 다르다.
+
+#### 자바스크립트
+자바스크립트의 특성을 먼저 살펴보자.
 
 1. Single-threaded
 2. Non-blocking
@@ -89,7 +94,17 @@ func1();
 3. 이후 커피점에 가서 커피를 주문한다.
 ```
 
-위 작업들은 순차적으로 진행하면 비효율적이다. 실제로도 저녁을 먹으면서 가게에 전화 주문을 한 후, 기다리지 않고 물건을 받아갈 수 있을 것이다. 이를 자바에서는 멀티 스레드로 구현한다. 쉽게 말해 처리해야 할 작업이 3개이므로 나의 분신도 3개로 늘려 각각의 작업들을 병렬적으로 처리할 수 있도록 한다. 하지만 자바스크립트는 싱글 스레드 언어이므로 한 명이 각 가게들을 들려 주문 후 번호표를 받고, 물건이 준비되었다는 전달(Callback)을 받는 식으로 비동기 처리를 진행한다. 흔히 자바와 자바스크립트의 동작 원리가 다르다곤 하는데, 자바는 별도의 스레드를 생성하지 않으면 동기적(순차적)으로 코드가 실행되지만 자바스크립트는 그렇지 않음을 의미하는 말이다.
+위 작업들은 순차적으로 진행하면 비효율적이다. 실제로도 저녁을 먹으면서 가게에 전화 주문을 한 후, 기다리지 않고 물건을 받아갈 수 있을 것이다. 이를 자바에서는 멀티 스레드로 구현한다. 쉽게 말해 처리해야 할 작업이 3개이므로 나의 분신도 3개로 늘려 각각의 작업들을 병렬적으로 처리할 수 있도록 한다. 하지만 자바스크립트는 싱글 스레드 언어이므로 한 명이 각 가게들을 들려 주문 후 번호표를 받고, 물건이 준비되었다는 전달(**Callback**[1])을 받는 식으로 비동기 처리를 진행한다. 흔히 자바와 자바스크립트의 동작 원리가 다르다곤 하는데, 자바는 별도의 스레드를 생성하지 않으면 동기적(순차적)으로 코드가 실행되지만 자바스크립트는 그렇지 않음을 의미하는 말이다.
+
+- - -
+* [1]
+	* [콜백 함수란?](https://stackoverflow.com/questions/824234/what-is-a-callback-function)  
+		```txt
+		A callback function is a function which is:
+		  * accessible by another function, and
+		  * is invoked after the first function if that first function completes
+		```
+	* [콜백 함수 예시](https://stackoverflow.com/questions/2190850/create-a-custom-callback-in-javascript)
 
 ##### [목차로 이동](#목차)
 
@@ -118,6 +133,11 @@ https://okky.kr/article/592455
 ## 참고
 * [동기식 처리 모델 vs 비동기식 처리 모델](https://poiemaweb.com/js-async)
 * [컴퓨터 통신 방식 중 동기/비동기란](https://wikidocs.net/22372)
+* JavaScript와 비동기
+	1. [Callback이 뭐죠?](https://medium.com/@nemo1275/callback%EC%9D%B4-%EB%AD%90%EC%A3%A0-5f3c0cc4efce)
+	2. [Promise가 뭐죠?](https://medium.com/@nemo1275/promise%EA%B0%80-%EB%AD%90%EC%A3%A0-fdf7de2bc0bf)
+	3. [await가 뭐죠?](https://medium.com/@nemo1275/await%EA%B0%80-%EB%AD%90%EC%A3%A0-1332622df251)
+* [JS는 어떻게 싱글스레드로 작동되는가?](http://hi-cord.com/contents/js-js%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%8B%B1%EA%B8%80%EC%8A%A4%EB%A0%88%EB%93%9C%EB%A1%9C-%EC%9E%91%EB%8F%99%EB%90%98%EB%8A%94%EA%B0%80)
 * [싱글스레드 기반 JS의 비동기적 처리 방법](https://hudi.kr/%EB%B9%84%EB%8F%99%EA%B8%B0%EC%A0%81-javascript-%EC%8B%B1%EA%B8%80%EC%8A%A4%EB%A0%88%EB%93%9C-%EA%B8%B0%EB%B0%98-js%EC%9D%98-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95/)
 * [어쨌든 이벤트 루프는 무엇입니까? - Philip Roberts](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 * [JavaScript - single threaded, non-blocking, asynchronous, concurrent language](https://medium.com/@theflyingmantis/javascript-single-threaded-non-blocking-asynchronous-concurrent-language-ffae97c57bef)
