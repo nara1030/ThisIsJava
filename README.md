@@ -50,6 +50,7 @@
 11. [비동기](./docs/etc/async.md)
 12. [단위 테스트](./docs/etc/unit_test.md)
 13. [로깅](./docs/etc/logging.md)
+14. [Gradle](./docs/etc/gradle.md)
 
 ##### [목차로 이동](#목차)
 

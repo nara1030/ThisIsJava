@@ -49,7 +49,6 @@
 
 한편 Slf4j[1] 및 Apache Commons Logging과 같은 추상화 계층[2]을 사용하여 기본 로깅 프레임워크에서 코드를 분리하여 프레임워크간 즉시 전환할 수 있다. 
 
-
 - - -
 * [1](출처: [Slf4j](https://kwonnam.pe.kr/wiki/java/slf4j))
 	* 여러 로거를 선택해 사용할 수 있게 해주는 로깅 파사드  
