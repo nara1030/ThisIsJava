@@ -72,7 +72,7 @@
 #### Slf4j + Logback
 <img src="../../img/logging_01.png" width="550" height="250"></br>
 
-<img src="../../img/logging_02.png" width="550" height="220"></br>
+<img src="../../img/logging_02.png" width="550" height="180"></br>
 
 ##### [목차로 이동](#목차)
 
