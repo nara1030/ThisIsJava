@@ -69,6 +69,13 @@
 
 ##### [목차로 이동](#목차)
 
+#### Slf4j + Logback
+<img src="../../img/logging_01.png" width="550" height="250"></br>
+
+<img src="../../img/logging_02.png" width="550" height="220"></br>
+
+##### [목차로 이동](#목차)
+
 ## 참고
 * [Java Logging Functionality](https://medium.com/@TechExpertise/java-logging-functionality-103a412caa1e)
 * [Java Logging Basics](https://www.loggly.com/ultimate-guide/java-logging-basics/)
